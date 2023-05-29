@@ -54,19 +54,18 @@ img {
     outline: 2px solid red;
 }
 
-/* .visually-hidden {
+.visually-hidden {
     position: absolute;
+    white-space: nowrap;
     width: 1px;
     height: 1px;
-    margin: -1px;
+    overflow: hidden;
     border: 0;
     padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden;
-} */
+    clip-path: inset(50%);
+    margin: -1px;
+}
 
 /* header*/
 
@@ -81,7 +80,6 @@ img {
 }
 
 .header{
-    /* padding: 24px 0; */
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -222,6 +220,7 @@ img {
 .about-list {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .about {
