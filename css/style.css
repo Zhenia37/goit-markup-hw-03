@@ -55,15 +55,16 @@ img {
 
 .visually-hidden {
     position: absolute;
-    white-space: nowrap;
     width: 1px;
     height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
     margin: -1px;
+    border: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* header*/
@@ -101,12 +102,11 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 
-/* .header-item{
+.header-item{
     padding: 24px 0;
-} */
+}
 
 .header-address {
     margin-left: auto;
