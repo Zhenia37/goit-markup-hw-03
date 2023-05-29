@@ -158,12 +158,6 @@ img {
 
 /* hero */
 
-.hero-cont {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .hero {
     background-color: #2e2f42;
     padding: 188px 0;
@@ -176,7 +170,9 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--hero-color);
+    margin: 0 auto;
     margin-bottom: 48px;
+
 }
 
 .hero-title:hover,
@@ -190,16 +186,13 @@ img {
     height: 56px;
 
     display: block;
-
+    margin: 0 auto;
     border: none;
 
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     letter-spacing: 0.04em;
     color: var(--hero-color);
     background-color: #4D5AE5;
