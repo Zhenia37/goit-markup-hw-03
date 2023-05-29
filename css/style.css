@@ -101,11 +101,12 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
-}
-
-.header-item{
     padding: 24px 0;
 }
+
+/* .header-item{
+    padding: 24px 0;
+} */
 
 .header-address {
     margin-left: auto;
