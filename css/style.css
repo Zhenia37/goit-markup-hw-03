@@ -223,6 +223,10 @@ img {
     gap: 24px;
 }
 
+.about-item {
+    width: calc((100% - 72px) / 4);
+}
+
 .about {
     padding: 120px 0;
 }
@@ -263,6 +267,7 @@ img {
 .product-list {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 
